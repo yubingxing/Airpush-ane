@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.2">
+	<id>com.ice.airpush</id>    
+    <versionNumber>1</versionNumber>
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>airpush.jar</nativeLibrary>
+                <initializer>com.ice.airpush.AirpushExtension</initializer>
+                <finalizer>com.ice.airpush.AirpushExtension</finalizer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>
